@@ -16,3 +16,6 @@ repr method can be used to reconstruct the object using eval method
 print(eval(repr(now)))
 datetime.datetime(2020, 12, 27, 22, 28, 0, 324317)
 ```
+## eval
+- eval method takes python expression in string format and calculates the result.
+- eval('5+5') # output: 10
