@@ -13,5 +13,5 @@ def number_to_string(argument):
 
 
 if __name__ = "__main__":
-	argument = 0
+	argument = 1
 	number_to_string(argument)
