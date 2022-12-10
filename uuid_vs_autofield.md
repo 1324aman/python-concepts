@@ -17,3 +17,7 @@
 - If you actually want your UUID to give some indication of the date and computer in which it was created, then UUID v1 may be for you (although it is).
 
 - UUID v5 is normally used only for very specific use cases, when you want to derive a UUID from another piece of information on the fly.
+
+## What should we use, auto increment field or uuid field as models id field in django (id column of a db table).
+- UUID field is recommended. If we use auto increment field and we are accessing an object by its id, then the id of other objects can be predicted.
+- The size of uuid is larger than auto field, but that is not a big issue, there is a negligible difference in performance.
