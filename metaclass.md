@@ -1,9 +1,9 @@
-- In Python, the object class is the base class for all other classes. It is the ultimate parent class from which all classes inherit by default.
+- In Python, the `object` class is the base class for all other classes. It is the ultimate parent class from which all classes inherit by default.
 - A metaclass is the class of the class.
 - python has built-in type metaclass.
 - Metaclasses provide a way to customize the creation and behavior of class objects.
 - Every class is an instance of its metaclass.
-- If we don't specify the metaclass for our class, then default metaclass will be type.
+- If we don't specify the metaclass for our class, then default metaclass will be `type`.
 `type(classname, superclasses, attributes)`
 
 #### type is also a function in python
